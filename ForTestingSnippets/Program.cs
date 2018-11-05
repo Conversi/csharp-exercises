@@ -8,18 +8,19 @@ namespace ExerciseDictionaries
     {
         public static void Main(string[] args)
         {
-            Dictionary<string, double> students = new Dictionary<string, double>();
+            Dictionary<string, double> students =
+                new Dictionary<string, double>();
             string newStudent;
 
-            Console.WriteLine("Enter your students (or ENTER to finish):");
+            Console.WriteLine("Enter your students (or ENTER to finish)");
             do
             {
-                Console.Write("name: ");
+                Console.WriteLine("name: ");
                 newStudent = Console.ReadLine();
                 if (newStudent != "")
                 {
                     // Get the student's grade
-                    Console.WriteLine("grade: ");
+                    Console.Write("grade: ");
                     double newGrade = double.Parse(Console.ReadLine());
 
                     students.Add(newStudent, newGrade);
@@ -27,8 +28,8 @@ namespace ExerciseDictionaries
             }
             while (newStudent != "");
 
-            // Print class roster
-            Console.WriteLine("\nClass roster:");
+            // Print roster
+            Console.WriteLine("\n\nClass roster:");
             foreach (KeyValuePair<string, double> student in students)
             {
                 Console.WriteLine(student.Key + " (" + student.Value + ")");
