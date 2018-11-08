@@ -9,7 +9,7 @@ namespace Lists
         public static void Main(string[] args)
         {
             List<int> numbers =  new List<int>();
-            for (int i = 0; i <10; i++)
+            for (int i = 0; i < 10; i++) 
             {
                 numbers.Add(i);
             }
@@ -21,7 +21,7 @@ namespace Lists
             Console.ReadLine();
         }
 
-        private static List<int> CalculateEvens(List<int> numbers)
+        public static List<int> CalculateEvens(List<int> numbers)
         {
             List<int> evenNumbers = new List<int>();
             foreach (int number in numbers)
@@ -34,6 +34,14 @@ namespace Lists
             List<int> sumList = new List<int>();
             sumList.Add(sum);
             return sumList;    
+        }
+    }
+    class whateverf
+    {
+        public static void Whatevs()
+        {
+            Program.CalculateEvens(numbers);
+            Program.
         }
     }
 }
