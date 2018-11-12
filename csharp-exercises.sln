@@ -46,7 +46,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class2PracticeProblems", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudioCountingCharacters", "StudioCountingCharacters\StudioCountingCharacters.csproj", "{18B749C5-88A2-4A0B-BC3C-669A5AFC7C91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMVC", "HelloMVC\HelloMVC.csproj", "{97E07D40-B59A-4DCD-BEBD-6917FF5FE0CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloMVC", "HelloMVC\HelloMVC.csproj", "{97E07D40-B59A-4DCD-BEBD-6917FF5FE0CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class3Walkthrough", "Class3Walkthrough\Class3Walkthrough.csproj", "{324F04BE-02DE-424C-9583-AE939895D894}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -146,6 +148,10 @@ Global
 		{97E07D40-B59A-4DCD-BEBD-6917FF5FE0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E07D40-B59A-4DCD-BEBD-6917FF5FE0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E07D40-B59A-4DCD-BEBD-6917FF5FE0CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324F04BE-02DE-424C-9583-AE939895D894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324F04BE-02DE-424C-9583-AE939895D894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324F04BE-02DE-424C-9583-AE939895D894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324F04BE-02DE-424C-9583-AE939895D894}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,10 +12,29 @@ namespace HelloMVC.Controllers
         {
             string html = "<form method='post'>" + 
                 "<input type='text' name='name' /> + " +
-                "<input type='submit' value='Greet Me!' /> + " +
+                "< label for= 'pet-select' > Choose a pet:</ label >" +
+                
+                "< select id = 'pet-select' >" +
+ 
+                     "< option value = '' > --Please choose an option-- </ option >" +
+ 
+                     "< option value = 'French' > Fr </ option >" +
+ 
+                     "< option value = 'Spanish' > Sp </ option >" +
+ 
+                     "< option value = 'English' > En </ option >" +
+ 
+                     "< option value = 'German' > De </ option >" +
+ 
+                     "< option value = 'Chinese'> Cn </ option >" +
+ 
+                "</ select >" +
+
+
+                 "<input type='submit' value='Greet Me!' /> + " +
                 "</form>";
 
-            return Redirect("/Hello/Goodbye");
+            return Redirect("/Hello/Index");
         }
 
         [Route("/Hello")]
